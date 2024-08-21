@@ -8,10 +8,10 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx6bf139c0066ca427',
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '71ae1814977ba82f4cf6f622e6f7a231',
+  APP_SECRET: '',
 
   PROVINCE: '四川',
   CITY: '成都',
@@ -21,7 +21,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '～',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ourS96K5LYJINBuf6fGpSWzQIKK8',
+      id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'x_qT1RpvBmUJobKw4oYCSMrkLOIZUDzIgMdqk9ys0e8',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -29,7 +29,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '丹丹', year: '1996', date: '12-28',
+          type: '*生日', name: '', year: '1996', date: '12-28',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
